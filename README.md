@@ -9,7 +9,7 @@ Ensure you have the following before using this module:
 - [OpenTofu](https://opentofu.org/docs/intro/install/) or [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed
 - An Oracle Cloud Infrastruture(OCI) Account
 - [Configure OCI CLI](https://docs.oracle.com/en-us/iaas/Content/dev/terraform/tutorials/tf-provider.htm#prepare) with appropriate credentials
-- Required [IAM policies] (https://docs.oracle.com/en/cloud/paas/nosql-cloud/ttxsq/index.html)
+- Required [IAM policies](https://docs.oracle.com/en/cloud/paas/nosql-cloud/ttxsq/index.html)
 
 ## Using with Terraform
 
