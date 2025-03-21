@@ -48,5 +48,7 @@ To destroy the created resources, use:
 ```sh
 tofu destroy # or terraform destroy
 ```
+## Documentation
+- [Oracle NoSQL](https://docs.oracle.com/en/cloud/paas/nosql-cloud/dtddt/#Get-Started-0)
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/angeline-hilda/OCI-nosql/blob/master/LICENSE) file for details.
