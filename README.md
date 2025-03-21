@@ -48,5 +48,5 @@ To destroy the created resources, use:
 ```sh
 tofu destroy # or terraform destroy
 ```
-## LICENSE
+## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/angeline-hilda/OCI-nosql/blob/master/LICENSE) file for details.
