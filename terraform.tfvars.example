@@ -1,0 +1,35 @@
+# general oci parameters
+
+# general oci parameters
+
+api_fingerprint = 
+api_private_key_path = 
+
+home_region = 
+region = "ap-mumbai-1"
+tenancy_id = 
+user_id = 
+
+
+compartment_id = 
+
+
+
+############################ NOSQL #####################################################
+
+########################## TABLE ##################################################
+
+table_name = "nosql_demo_navi"
+#nosql_demo_ddl_statement ="CREATE TABLE if not exists nosql_demo_navi (id INTEGER, name STRING, info JSON, PRIMARY KEY(id))"
+
+table_limits_max_read_units = 50
+table_limits_max_storage_in_gbs = 20
+table_limits_max_write_units = 50
+is_auto_reclaimable = false
+capacity_mode = "PROVISIONED"
+
+
+
+
+
+
