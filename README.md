@@ -11,7 +11,7 @@ Ensure you have the following before using this module:
 - [Configure OCI CLI](https://docs.oracle.com/en-us/iaas/Content/dev/terraform/tutorials/tf-provider.htm#prepare) with appropriate credentials
 - Required [IAM policies](https://docs.oracle.com/en/cloud/paas/nosql-cloud/ttxsq/index.html)
 
-## Featues
+## Module Overview
 
 1. **NoSQL Tables:**
    - The `module-nosql.tf` creates two tables: one with a hybrid schema and the other schemaless.
