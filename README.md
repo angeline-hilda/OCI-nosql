@@ -2,15 +2,6 @@
 
 This repository contains Terraform modules which provisions an OCI NoSQL table with configurable parameters such as read/write units, storage capacity, and capacity mode. 
 
-## Pre-requisites
-
-Ensure you have the following before using this module:
-
-- [OpenTofu](https://opentofu.org/docs/intro/install/) or [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed
-- An Oracle Cloud Infrastruture(OCI) Account
-- [Configure OCI CLI](https://docs.oracle.com/en-us/iaas/Content/dev/terraform/tutorials/tf-provider.htm#prepare) with appropriate credentials
-- Required [IAM policies](https://docs.oracle.com/en/cloud/paas/nosql-cloud/ttxsq/index.html)
-
 ## Module Overview
 
 1. **NoSQL Tables:**
@@ -48,6 +39,15 @@ Ensure you have the following before using this module:
     ignore_changes = [ddl_statement]
   }
   ```
+
+## Pre-requisites
+
+Ensure you have the following before using this module:
+
+- [OpenTofu](https://opentofu.org/docs/intro/install/) or [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed
+- An Oracle Cloud Infrastruture(OCI) Account
+- [Configure OCI CLI](https://docs.oracle.com/en-us/iaas/Content/dev/terraform/tutorials/tf-provider.htm#prepare) with appropriate credentials
+- Required [IAM policies](https://docs.oracle.com/en/cloud/paas/nosql-cloud/ttxsq/index.html)
 
 ## Using with Terraform
 
