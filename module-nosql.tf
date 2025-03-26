@@ -37,10 +37,7 @@ locals {
 module "nosql_demo" {
   source            = "./nosql"
   compartment_id    = var.compartment_id
-  for_each          = local.table_creation_ddl_statements
   table_definitions = local.table_creation_ddl_statements
-  #ddl_statement       = each.value.statement
-  #table_name          = each.value.table_name
   max_read_units      = var.table_limits_max_read_units
   max_write_units     = var.table_limits_max_write_units
   max_storage_in_gbs  = var.table_limits_max_storage_in_gbs
