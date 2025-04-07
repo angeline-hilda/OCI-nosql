@@ -1,6 +1,6 @@
 # Oracle Cloud Infrastructure (OCI) NoSQL Terraform Module
 
-This repository contains Terraform modules which provisions an OCI NoSQL table with configurable parameters such as read/write units, storage capacity, and capacity mode. 
+This repository contains Terraform modules which provisions an OCI NoSQL table with configurable parameters such as read/write units, storage capacity, and capacity mode.
 
 ## Module Overview
 
@@ -86,5 +86,9 @@ To destroy the created resources, use:
 ```sh
 tofu destroy # or terraform destroy
 ```
+
+## Documentation
+- [OCI NoSQL](https://docs.oracle.com/en/cloud/paas/nosql-cloud/dtddt/#articletitle)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/angeline-hilda/OCI-nosql/blob/master/LICENSE) file for details.

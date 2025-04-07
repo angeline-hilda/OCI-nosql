@@ -24,7 +24,7 @@ table_limits_max_storage_in_gbs = 20
 table_limits_max_write_units    = 50
 
 # set to true, for always free resource.
-# As of now, only available in Phonenix region
+# As of now, only available in Phoenix region
 is_auto_reclaimable             = false
 
 capacity_mode                   = "PROVISIONED"
